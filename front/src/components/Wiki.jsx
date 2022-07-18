@@ -46,7 +46,7 @@ const Wiki = () => {
 			<Button onClick={() => handleSummary(recording.en + '_bird')}>
 				click for further info
 			</Button>
-			{info && <Typography>{info}</Typography>}
+			<Typography>{info}</Typography>
 		</div>
 	)
 }

@@ -5,6 +5,7 @@ import { Typography } from '@mui/material'
 
 import { selectRecording } from '../redux/recordingSlice'
 import { selectPhotoUrl } from '../redux/photoUrlSlice'
+import Wiki from './Wiki'
 
 const Display = () => {
 	const states = useSelector(selectRecording)
@@ -51,6 +52,7 @@ const Display = () => {
 						loop
 						className='mx-auto mt-2'
 					/>
+					<Wiki />
 				</div>
 			)}
 		</div>

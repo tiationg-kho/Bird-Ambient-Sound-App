@@ -1,0 +1,93 @@
+{
+	"intents": [
+		{
+			"tag": "greeting",
+			"patterns": [
+				"Hi",
+				"Hey",
+				"How are you",
+				"Is anyone there?",
+				"Hello",
+				"Good day"
+			],
+			"responses": [
+				"Hey, needs some help?",
+				"Hello, thanks for visiting",
+				"Hi there, what can I do for you?",
+				"Hi there, how can I help?"
+			]
+		},
+		{
+			"tag": "goodbye",
+			"patterns": ["Bye", "See you later", "Goodbye"],
+			"responses": [
+				"See you later, thanks for visiting",
+				"Have a nice day",
+				"Bye! Come back again soon"
+			]
+		},
+		{
+			"tag": "thanks",
+			"patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+			"responses": ["Happy to help!", "Any time!", "My pleasure"]
+		},
+		{
+			"tag": "functions",
+			"patterns": [
+				"Which functions do you have?",
+				"What kinds of functions are there?",
+				"What can I get from this web site?",
+				"What this website for?",
+				"what can you do?",
+				"functions",
+				"How many functions do you have?"
+			],
+			"responses": [
+				"We connect xeno-canto website to give you bird sounds",
+				"We have the birds habit location map",
+				"We can help you know some wiki knowledge about birds",
+				"You can relax with some awesome bird sounds",
+				"You can store your favourite bird sounds in your list"
+			]
+		},
+		{
+			"tag": "author",
+			"patterns": [
+				"Do you know the author of the website?",
+				"Who is the web site's author?",
+				"Who build this site?",
+				"Who are you?",
+				"What your name?",
+				"author"
+			],
+			"responses": [
+				"My name is Tiationg. I am a graduate student currently. I love birds. Hope you too!",
+				"Nice to meet you, I am Tiationg. I love birds"
+			]
+		},
+		{
+			"tag": "birds",
+			"patterns": [
+				"Can you introduce birds for me?",
+				"Is there any bird knowledge?",
+				"Tell me something about bird",
+				"Do you know bird well?",
+				"Tell me some bird's fact.",
+				"Is there any interesting knowledge about bird?",
+				"bird knowledge",
+				"tell me birds stories"
+			],
+			"responses": [
+				"Ravens are great at mimicking human speech and sounds",
+				"Some ducks sleep with one eye open",
+				"Most hummingbirds weigh less than a nickel",
+				"Woodpeckers hoard acorns",
+				"An albatross can sleep while it flies. It apparently dozes while cruising at 25 mph",
+				"Owls cannot move their eyes",
+				"There are about 10,000 known bird species",
+				"Birds communicate using sound and color",
+				"Birds have a very high metabolic rate"
+			]
+		}
+	]
+}

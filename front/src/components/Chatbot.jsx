@@ -21,6 +21,7 @@ const Chatbot = () => {
 		setAsk({ ...ask, text: '' })
 		const res = await fetch(`${process.env.REACT_APP_CHATBOT_URL}/predict`, {
 			method: 'POST',
+            mode: 'cors',
 			headers: { 'Content-Type': 'application/json' },
 			body: JSON.stringify({
 				message: user_question.text,

@@ -1,6 +1,3 @@
-# Please Visit Here: https://bird-ambient-sound-app.vercel.app
-# (email: test@test.com, password: 123456)
-
 # Preview:
 <img width="500" alt="Screen Shot 2022-07-27 at 03 04 39" src="https://user-images.githubusercontent.com/69543583/181221756-01148eb3-cab8-4186-82f0-adc5cf619237.png">
 
